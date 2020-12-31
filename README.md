@@ -12,28 +12,25 @@ Simple CPU implementation from scratch of Block Matching using simple Sum of Squ
 You can either compile the code to executable with g++ with Opencv installed. This have been tested in Mac.    
 
 ---
-## Reqirement 
+**Reqirement**
 
     ### OpenCV ###
     * To install OpenCV using brew
-    '''
-    brew install opencv
-    '''
+    
+      brew install opencv
+    
     * To install pkg-config using brew
-    '''
-    brew install pkg-config
-    '''
+    
+      brew install pkg-config
+    
     * View OpenCV linker flags
-    '''
-    pkg-config --cflags --libs opencv4
-    '''
+    
+      pkg-config --cflags --libs opencv4
+    
 
-## Compile
+**Compile**
 
-    '''
     g++ $(pkg-config --cflags --libs opencv4) -std=c++11 stereo_matching.cpp -o stereo_matching 
-
-    '''
 
 **Usage**
 
@@ -44,6 +41,7 @@ You can either compile the code to executable with g++ with Opencv installed. Th
     ./stereo_matching -left=left000116.png -right=right000116.png -max-disparity=50 -window_size=6 -tranwin_size=7 -output=depth_new.png
 
 
-## Theory
+**Theory**
+
 [Youtube](https://www.youtube.com/watch?v=jzis4WE3Vc8&ab_channel=UCFCRCV)
 
