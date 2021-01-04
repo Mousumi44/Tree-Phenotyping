@@ -34,11 +34,11 @@ You can either compile the code to executable with g++ with Opencv installed. Th
 
 **Usage**
 
-    ./stereo_mathing -left=<left image> -right=<right image> -max-disparity=<disparity range> -window_size=<window size for block matching> -tranwin_size=<window size for transformation> -output=<output image file> 
+    ./stereo_mathing -left=<left image> -right=<right image> -max-disparity=<disparity range> -window_size=<window size for block matching> -output=<output image file> 
 
 **Examples**
 
-    ./stereo_matching -left=left000116.png -right=right000116.png -max-disparity=50 -window_size=6 -tranwin_size=7 -output=depth_new.png
+    ./stereo_matching -left=left000116.png -right=right000116.png -max-disparity=80 -window_size=8 -output=depth_new.png
 
 
 **Theory**
