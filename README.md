@@ -8,6 +8,8 @@
   [![](https://img.shields.io/badge/Notebook-Run_in_Colab-EE4C2C?logo=PyTorch)](https://colab.research.google.com/drive/1FIHlN1xKRe8ufO0k42GvL_SqD06pAdp7)
   
 # Stereo Matching 
+
+## Block Matching
 Simple CPU implementation from scratch of Block Matching using simple Sum of Square difference and rank transform as matching cost. 
 You can either compile the code to executable with g++ with Opencv installed. This have been tested in Mac.    
 
@@ -44,4 +46,19 @@ You can either compile the code to executable with g++ with Opencv installed. Th
 **Theory**
 
 [Youtube](https://www.youtube.com/watch?v=jzis4WE3Vc8&ab_channel=UCFCRCV)
+
+## Semi Global Block Matching
+Simple CPU implementation of Semi Global Block Matching using [opencv](https://docs.opencv.org/4.5.1/d1/d9f/classcv_1_1stereo_1_1StereoBinarySGBM.html#details). You can either compile the code to executable with g++ with Opencv installed. This have been tested in Mac. 
+
+**Compile**
+
+    g++ $(pkg-config --cflags --libs opencv4) -std=c++11 stereo_SGBM.cpp -o stereo_SGBM
+    
+**Usage**
+
+    ./stereo_SGBM --left="left.png" --right="right.png" --disparity=80 --kernel_size=9 --aggregation_window=16
+    ./stereo_SGBM --left="left.png" --right="right.png" 
+
+
+
 
