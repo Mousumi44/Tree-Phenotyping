@@ -9,7 +9,7 @@
   
  * Augmentation
  
-      [![](https://img.shields.io/badge/Notebook-Run_in_Colab-EE4C2C?logo=PyTorch)](https://colab.research.google.com/drive/1Vu4Ky0pAtWilcUpI-    awQryOpO5SQRNat#scrollTo=Bu3B12UeBhz7)
+  [![](https://img.shields.io/badge/Notebook-Run_in_Colab-EE4C2C?logo=PyTorch)](https://colab.research.google.com/drive/1Vu4Ky0pAtWilcUpI-    awQryOpO5SQRNat#scrollTo=Bu3B12UeBhz7)
 # Stereo Matching 
 
 ## Block Matching
